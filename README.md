@@ -2,13 +2,13 @@
 
 <img src="images/weather.png" align="right" height="180" style="margin-top: -25px;" />
 
-Many invents are influenced by weather.  Sometimes we need to plot weather behavior alongside our business or IT data so that we can spot a correlation.  The [OpenWeather](https://openweathermap.org) project provides 40 years of hourly weather conditions for a nominal feel.
+Many events are influenced by weather.  Sometimes we need to plot weather behavior alongside our business or IT data so that we can determine if there is a correlation.  The [OpenWeather](https://openweathermap.org) project provides 40 years of hourly weather conditions for a nominal feel.
 
-Purchase 40 years of hourly weather data from OpenWeather:
+Purchase 40 years of hourly weather data from OpenWeather for ~$10 USD:
 
 [https://home.openweathermap.org/marketplace](https://home.openweathermap.org/marketplace)
 
-The following script will load a JSON file from their archive into Elasticsearch.
+The following script will load the weather JSON file into Elasticsearch.
 
 ```
 $ ./load.rb 
